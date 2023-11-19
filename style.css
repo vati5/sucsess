@@ -1,0 +1,215 @@
+.container {
+  box-sizing: border-box;
+  max-width: 390px;
+  max-height: 844px;
+  background-color: #fff;
+  padding: 34px 29px;
+}
+
+body {
+  background-color: gray;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 7px;
+}
+
+.icon {
+  fill: none;
+  stroke: #000;
+}
+
+button {
+  border: none;
+  background-color: #fff;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+
+.back,
+.more {
+  width: 20px;
+  height: 20px;
+}
+
+.back:hover,
+.more:hover,
+.back:focus,
+.more:focus {
+  background-color: #9d9d9f;
+  filter: blur(0.2px);
+}
+
+.back:hover .icon,
+.more:hover .icon,
+.back:focus .icon,
+.more:focus .icon {
+  stroke: white;
+}
+
+.avatar {
+  margin-top: 102px;
+  position: relative;
+  width: 82px;
+  height: 82px;
+}
+
+.country {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+}
+
+.flag {
+  border-radius: 100%;
+}
+
+.card-image {
+  background-color: #f3f3f5;
+  border-radius: 100%;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.name {
+  color: #9d9d9f;
+  font-family: Gerbera;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 0;
+  margin: 0;
+  padding-left: 7px;
+  margin-top: 23px;
+}
+
+.usd,
+.eur {
+  color: #9e9ca1;
+  font-family: Gerbera;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+  margin: 0;
+  margin-top: 9px;
+}
+
+.icon-vector {
+  stroke: none;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.many-convertations-info {
+  display: flex;
+  align-items: center;
+  padding-left: 7px;
+}
+
+.payment-sucsessfuly {
+  margin-top: 35px;
+  padding: 0;
+  padding-left: 7px;
+  display: flex;
+  align-items: center;
+}
+
+.payment-status {
+  margin: 0;
+  margin-left: 10px;
+  color: #393939;
+  font-family: Gerbera;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.first,
+.second,
+.third {
+  border-bottom: solid 1px #cfcfcf;
+}
+
+.container.second {
+  padding-left: 33px;
+}
+
+.icon-repeat {
+  stroke: none;
+}
+
+.repeat-text {
+  margin: 0;
+  margin-left: 18px;
+  color: #783bf9;
+  font-family: Gerbera;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.date-container,
+.transaction-container,
+.comision-container,
+.exchange-rates-container {
+  display: flex;
+  align-items: center;
+}
+
+.transaction-container {
+  margin-top: 25px;
+}
+
+.exchange-rates-container {
+  margin-top: 31px;
+}
+
+.date,
+.date-time,
+.transaction,
+.transaction-number,
+.comision,
+.comision-equal,
+.exchange-rates,
+.exchange-rates-equal {
+  margin: 0;
+  color: #9d9d9f;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.date-time {
+  margin-left: 133px;
+}
+
+.transaction-number {
+  margin-left: 58px;
+}
+
+.comision-equal {
+  margin-left: 76px;
+}
+
+.exchange-rates-equal {
+  margin-left: 48px;
+}
